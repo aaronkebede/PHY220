@@ -3,7 +3,6 @@ from lmfit import Model, Parameters
 
 wl, t1,t2,t3 = np.loadtxt("Transmission_of_3_films.txt",unpack=True,skiprows=1) #first data row is incomplete. Let's just skip it.
 
-
 data = np.concatenate((t3,t2,t1)) #assemble a data array by concatenating the three data sets.
 wl = np.concatenate((wl+6000,wl+3000,wl)) #assemble the corresponding wavelength array, taking care of shifting the data sets so that they can be recognized by the function, based on the wavelength value.
 
