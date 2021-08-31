@@ -61,6 +61,6 @@ plt.legend()
 plt.show()
 
 
-print result.fit_report()
+print(result.fit_report())
 fig=result.plot() 
-fig.show()
+#fig.show()
