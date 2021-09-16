@@ -1,5 +1,5 @@
 
-name: lab-1
+name: PHY 220 Projects
 channels:
   - conda-forge
 dependencies:
