@@ -1,4 +1,3 @@
-
 name: PHY 220 Projects
 channels:
   - conda-forge
@@ -12,4 +11,4 @@ dependencies:
   - partd
   - bokeh
   - dask
-  - tex
+  
