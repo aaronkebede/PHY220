@@ -48,7 +48,7 @@ p.add_many(('amp', 320, True, 0, 350, None), # params for first fit,
 #expr (None or string) – mathematical expression to use to evaluate value during fit.
 
 
-result =model.fit(amplitude, x=frequency, params=p, weights = None )
+result = model.fit(amplitude, x=frequency, params=p, weights = None )
 
 plt.figure(2)
 plt.plot(frequency,amplitude,'b.')
