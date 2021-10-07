@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+N# -*- coding: utf-8 -*-
 import numpy as np;import matplotlib.pyplot as plt
 import math
 from lmfit import Model, Parameters
