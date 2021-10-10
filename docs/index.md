@@ -23,7 +23,7 @@ We then use our ouput to analyze the data and study circuit behavior at differen
 We have done multiple experiments and hence have multiple data outputs.  
 The data for each experiment can be found in the directory `/project-one/*version*/Readings/` 
 
-We have three `version` of the data:
+We have three `version`s of the data:
 
  - Hand Recorded Data (`hand-recorded-data`)
  - V1 - first version of data **without** the lock-in amplifier (`v1`)
