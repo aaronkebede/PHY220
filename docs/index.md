@@ -66,9 +66,9 @@ Using the data is pretty straight forward. The outcome that we would like is to 
     plt.ylabel("Phase Shift (degrees)")
     plt.show()
     
-![This should be the Amplitude vs Frequency plot](https://github.com/aaronkebede/PHY220/raw/main/project-one/hand-recorded-data/Images/amp-f.pdf)
+![This should be the Amplitude vs Frequency plot](https://raw.githubusercontent.com/aaronkebede/PHY220/main/project-one/hand-recorded-data/Images/amp-f-1.png)
 
-![This should be the Phase Shift vs Frequency plot](https://github.com/aaronkebede/PHY220/raw/main/project-one/hand-recorded-data/Images/phaseshift-f.pdf)
+![This should be the Phase Shift vs Frequency plot](https://raw.githubusercontent.com/aaronkebede/PHY220/main/project-one/hand-recorded-data/Images/phaseshift-f-1.png)
 
 # Questions?
 If you have questions or want to make suggestions, the most ideal way would be to [create an issue](https://github.com/aaronkebede/PHY220/issues/new/choose) or [a pull request](https://github.com/aaronkebede/PHY220/compare) on Github. You can also email me at aaron.kebede@lehigh.edu with questions.
