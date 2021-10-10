@@ -1,16 +1,16 @@
-﻿# Welcome!
+# Welcome!
 
-This website containsa A suite of codes written to create experiments and analyze data for the **Physics 220** Class. As the semester progresses, I will be sharing the list of codes we used to analyze different types of circuits.
+This website contains a suite of codes written to create experiments and analyze data for the **Physics 220** Class. As the semester progresses, I will be sharing the list of codes we used to analyze different types of circuits.
 
 
 
 # Prerequisites
 I worked on a linux envirnoment for the most part, so here are the guides to install the required programs ona linux machine. 
 
-1.  Download and Install LabVIEW [\[Guide\]](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#411240). To locally access LabVIEW on a Linux Machine, follow  [this guide](https://220.kebede.org/labview)
+1.  Download and Install LabVIEW [\[Guide\]](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#411240). To locally access LabVIEW on a Linux Machine, follow  [this guide.](https://220.kebede.org/labview)
 2. We run analyses on Python. We recommend installing python from Anaconda [distribution](https://www.anaconda.com/products/individual).
 3.  To view the required dependencies for running the data analysis, vist  [environment.yml](https://github.com/aaronkebede/PHY220/blob/main/environment.yml)
-4.  We run analyses on JupyterLab, so, install Jupyter as well.  [Installation Guide](https://jupyterhub.readthedocs.io/en/stable/quickstart.html)
+4.  We run analyses on JupyterLab, so, install Jupyter as well.  [[Installation Guide]](https://jupyterhub.readthedocs.io/en/stable/quickstart.html)
 
 ## First Project
 
@@ -23,7 +23,7 @@ We then use our ouput to analyze the data and study circuit behavior at differen
 We have done multiple experiments and hence have multiple data outputs.  
 The data for each experiment can be found in the directory `/project-one/*version*/Readings/` 
 
-We have three `version`s of the data:
+We have three `version` of the data:
 
  - Hand Recorded Data (`hand-recorded-data`)
  - V1 - first version of data **without** the lock-in amplifier (`v1`)
@@ -36,9 +36,9 @@ Older versions of data recorded can be found on here: [hand recorded data](https
 The data is organized into 4 files. Two of the files are `Frequency vs Amplitude` and `Frequency vs Phase Shift`. The other two are the same but with the lock-in amplifier included.
 
 
-**CSV root**: https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/CSV
+**CSV root**: [https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/CSV](https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/CSV)
 
-**XLSX:** https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/xlsx
+**XLSX:** [https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/xlsx](https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/xlsx)
 
 ## Usage
 
@@ -65,7 +65,12 @@ Using the data is pretty straight forward. The outcome that we would like is to 
     plt.xlabel("Frequency (KHz)")
     plt.ylabel("Phase Shift (degrees)")
     plt.show()
+    
+![This should be the Amplitude vs Frequency plot](https://github.com/aaronkebede/PHY220/raw/main/project-one/hand-recorded-data/Images/amp-f.pdf)
+
+![This should be the Phase Shift vs Frequency plot](https://github.com/aaronkebede/PHY220/raw/main/project-one/hand-recorded-data/Images/phaseshift-f.pdf)
 
 # Questions?
-If you have questions or want to make suggestions, the most ideal way would be to [create an issue](https://github.com/aaronkebede/PHY220/issues/new/choose) on the Github or create [a pull request](https://github.com/aaronkebede/PHY220/compare). You can also email me at aaron.kebede@lehigh.edu with questions.
+If you have questions or want to make suggestions, the most ideal way would be to [create an issue](https://github.com/aaronkebede/PHY220/issues/new/choose) or [a pull request](https://github.com/aaronkebede/PHY220/compare) on Github. You can also email me at aaron.kebede@lehigh.edu with questions.
+
 
