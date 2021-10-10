@@ -4,6 +4,7 @@
 To access labview, go to root folder:
 
     cd $home
+    
 Then, locate to the following folder:
 
     cd /usr/local/natinst/LABVIEW-20XX-XX
