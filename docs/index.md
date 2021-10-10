@@ -9,7 +9,7 @@ I worked on a linux envirnoment for the most part, so here are the guides to ins
 
 1.  Download and Install LabVIEW [\[Guide\]](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#411240). To locally access LabVIEW on a Linux Machine, follow  [this guide](https://220.kebede.org/labview)
 2. We run analyses on Python. We recommend installing python from Anaconda [distribution](https://www.anaconda.com/products/individual).
-3.  To view the required dependencies for running the data analysis, vist  [environment.yml](https://github.com/aaronkebede/PHY220/environment.yml)
+3.  To view the required dependencies for running the data analysis, vist  [environment.yml](https://github.com/aaronkebede/PHY220/blob/main/environment.yml)
 4.  We run analyses on JupyterLab, so, install Jupyter as well.  [Installation Guide](https://jupyterhub.readthedocs.io/en/stable/quickstart.html)
 
 ## First Project
