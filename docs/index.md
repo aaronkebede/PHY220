@@ -1,7 +1,7 @@
 
 # Welcome!
 
-![The Lab Setup](https://raw.githubusercontent.com/aaronkebede/PHY220/main/docs/img/setup.JPEG)
+![The Lab Setup](img/setup.JPEG)
 
 This website contains a suite of codes written to create experiments and analyze data for the **Physics 220** Class. As the semester progresses, I will be sharing the list of codes we used to analyze different types of circuits. All data and codes are available on [Github](https://github.com/aaronkebede/PHY220)
 
