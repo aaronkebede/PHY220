@@ -1,3 +1,4 @@
+
 # Welcome!
 
 This website contains a suite of codes written to create experiments and analyze data for the **Physics 220** Class. As the semester progresses, I will be sharing the list of codes we used to analyze different types of circuits. All data and codes are available on [Github](https://github.com/aaronkebede/PHY220)
@@ -36,9 +37,9 @@ Older versions of data recorded can be found on here: [hand recorded data](https
 The data is organized into 4 files. Two of the files are `Frequency vs Amplitude` and `Frequency vs Phase Shift`. The other two are the same but with the lock-in amplifier included.
 
 
-**CSV root**: [https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/CSV](https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/CSV)
+**CSV root**: [/project-one/v2/Readings/CSV](https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/CSV)
 
-**XLSX:** [https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/xlsx](https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/xlsx)
+**XLSX:** [/project-one/v2/Readings/xlsx](https://github.com/aaronkebede/PHY220/tree/main/project-one/v2/Readings/xlsx)
 
 ## Usage
 
