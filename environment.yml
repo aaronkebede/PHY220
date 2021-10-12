@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - numpy
+  - pandas
   - psutil
   - toolz
   - matplotlib
