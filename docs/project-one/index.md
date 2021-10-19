@@ -1,5 +1,6 @@
 
 ## First Project
+![The Lab Setup](img/setup.JPEG)
 
 On the first project, we analyze simple RC circuits using a siglent oscilloscope, and a signal generator. We then use LabVIEW to automate some analyses and record data.
 
