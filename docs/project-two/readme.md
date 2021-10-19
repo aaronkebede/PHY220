@@ -1,2 +1,2 @@
 
-This folder contains **documentation files**, codes and results from project two.
+This folder contains **documentation**, files codes and results from project two.
