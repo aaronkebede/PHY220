@@ -47,6 +47,8 @@ lfp_frequency  = LFP[:,2]
 lfp_phaseshift = LFP[:,1]
 #f_test = LFA[:,0]
 
+lfa_amplitude.max()
+
 #plt.plot(f_test,lfa_amplitude)
 #plt.axvline(x=2000,c='k')
 
@@ -81,13 +83,13 @@ def graph(formula, x_range):
   #  plt.show() 
 
 def amplitude_fit(x):
-    value = 320/np.sqrt(1+(2*np.pi*tau*x)**2)
+    value = 0.870365/np.sqrt(1+(2*np.pi*tau*x)**2)
     return value
 
 graph(amplitude_fit, range(0, 100000))
 
 def phase_shift_fit(x):
-    ps_value = -180/pi*np.arctan(2*np.pi*tau*x)
+    ps_value =-0.6424556962025318/pi*np.arctan(2*np.pi*tau*x)
     return ps_value
 
 def Amplitude_of_Filter(x,amp,tau):
@@ -95,8 +97,10 @@ def Amplitude_of_Filter(x,amp,tau):
     return lfa_amplitude
 
 def Phase_Shift_of_Filter(x,tau,offset):
-    lfp_phaseshift=-180/np.pi*np.arctan(2*np.pi*tau*x)+offset
+    lfp_phaseshift=-0.6424556962025318/np.pi*np.arctan(2*np.pi*tau*x)+offset
     return lfp_phaseshift
+
+lfp_phaseshift.mean()
 
 amp_model = Model(Amplitude_of_Filter)
 ps_model  = Model(Phase_Shift_of_Filter)
@@ -164,3 +168,6 @@ plt.title("Phase Shift vs. Frequency")
 plt.legend()
 plt.savefig("Images/Zoomed LP-Phase Shift Fit.pdf",bbox_inches='tight')
 plt.show()
+
+
+
