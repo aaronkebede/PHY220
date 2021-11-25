@@ -5,8 +5,9 @@
 On the first project, we analyze simple RC circuits using a siglent oscilloscope, and a signal generator. We then use LabVIEW to automate some analyses and record data.
 
 We then use our ouput to analyze the data and study circuit behavior at different frequencies. We have organized the data into CSV/XLSX files. Although the default output of the recorded data from LabVIEW is in the .xlsx format, we change the format to CSV inorder to make it easier to use it with numpy.
- 
 
+## Code
+The code for this project can be found on [Github](https://github.com/aaronkebede/phy220) and is also mirrored on [Gitlab](https://gitlab.com/aaronkebede/phy220). The visualizations we have are found on the directories `/project-NUM`, while `NUM` can be one, two etc.
 ## Data
 We have done multiple experiments and hence have multiple data outputs.  
 The data for each experiment can be found in the directory `/project-one/*version*/Readings/` 
@@ -57,8 +58,6 @@ Using the data is pretty straight forward. The outcome that we would like is to 
 ![This should be the Amplitude vs Frequency plot](https://raw.githubusercontent.com/aaronkebede/PHY220/main/project-one/hand-recorded-data/Images/amp-f-1.png)
 
 ![This should be the Phase Shift vs Frequency plot](https://raw.githubusercontent.com/aaronkebede/PHY220/main/project-one/hand-recorded-data/Images/phaseshift-f-1.png)
-
+For more visualizations and plots we used on our lab project, read [Code](#Code)
 # Questions?
 If you have questions or want to make suggestions, the most ideal way would be to [create an issue](https://github.com/aaronkebede/PHY220/issues/new/choose) or [a pull request](https://github.com/aaronkebede/PHY220/compare) on Github. You can also email me at aaron.kebede@lehigh.edu with questions.
-
-
